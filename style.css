@@ -1,6 +1,7 @@
 * {
     padding: 0;
 }
+
 body {
     text-align: center;
     margin: auto;
@@ -49,7 +50,7 @@ body {
 }
 
 .site__header__information-number {
-    color:#757575;
+    color: #757575;
     display: flex;
     gap: 32px;
     align-items: center;
@@ -60,7 +61,7 @@ body {
     display: flex;
     gap: 32px;
     align-items: center;
-    
+
 }
 
 .header-section {
@@ -79,7 +80,7 @@ body {
 .header__nav-button button {
     width: 104px;
     height: 44px;
-    background-color:#F4F5F8;
+    background-color: #F4F5F8;
     border: none;
     border-radius: 7px;
     font-size: 16px;
@@ -132,19 +133,16 @@ body {
     border: none;
     width: 240px;
     height: 44px;
-    background-color:#202226;
+    background-color: #202226;
     color: #F4F5F8;
     border-radius: 12px;
     font-size: 16px;
 }
 
 .header-consultation__button-icon {
-    display: block;
-    width: 44px;
-    height: 44px;
-    border-radius: 8px;
-    cursor: pointer;
+    display: none;
 }
+
 /*header finish*/
 
 
@@ -153,7 +151,7 @@ body {
 
 /*section start*/
 .section {
-    background-color:#202226;
+    background-color: #202226;
     border-radius: 15px;
     text-align: center;
     display: flex;
@@ -218,11 +216,10 @@ body {
     margin: 20px;
 }
 
-.section__title-img img{
-}
+.section__title-img img {}
 
 .section__narxi p {
-    color:#ffffff;
+    color: #ffffff;
     font-size: 24px;
     text-align: start;
     padding-left: 50px;
@@ -248,8 +245,9 @@ body {
 }
 
 .section__title-paragraph {
-    color:#9F9F9F;
+    color: #9F9F9F;
 }
+
 /*section finish*/
 
 /* article start */
@@ -273,7 +271,7 @@ body {
     color: #757575;
 }
 
-.article__img_box img {   
+.article__img_box img {
     margin: auto;
 }
 
@@ -295,6 +293,7 @@ body {
     text-align: start;
     padding: 24px;
 }
+
 /* article finish */
 
 /* aside start */
@@ -368,7 +367,7 @@ body {
 }
 
 .why-us__big-text {
-    background:#F4F5F8;
+    background: #F4F5F8;
     text-align: start;
     display: flex;
     flex-direction: column;
@@ -378,11 +377,11 @@ body {
 
 .why-us__big-icons_img {
     background: #f6f7f9;
-   border-radius: 16px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}  
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .why-us__big-text p {
     margin-bottom: 15px;
@@ -400,6 +399,7 @@ body {
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
 }
+
 /* why us finish */
 
 
@@ -417,7 +417,7 @@ body {
 
 .contact__text {
     text-align: start;
-    padding: 60px 40px ;
+    padding: 60px 40px;
 }
 
 .contact__text h2 {
@@ -449,16 +449,15 @@ body {
 }
 
 input {
-  background: transparent;
-  border: none;   
-  border-bottom: 2px solid #fff; 
-  outline: none;          /
-  color: #fff;
-  width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;/ color: #fff;
+    width: 100%;
 }
 
 input:focus {
-  border-bottom: 2px solid #fff;  
+    border-bottom: 2px solid #fff;
 }
 
 
@@ -470,6 +469,7 @@ input:focus {
     font-size: 16px;
     margin-top: 34px;
 }
+
 /* contacts finish */
 
 /* footer start */
@@ -496,11 +496,11 @@ input:focus {
     padding-bottom: 7px;
 }
 
-.footer__line{
+.footer__line {
     color: #777;
 }
 
-.footer__text_info{
+.footer__text_info {
     text-align: start;
     padding-left: 15px;
 }
@@ -544,12 +544,12 @@ input:focus {
 }
 
 .footer__container__text {
-    display:flex;
+    display: flex;
     text-align: start;
     gap: 50px;
 }
 
-.footer__container__text_paragraph p{
+.footer__container__text_paragraph p {
     color: #535252;
     font-family: sans-serif;
 }
@@ -577,7 +577,7 @@ input:focus {
     justify-content: space-between;
 }
 
-.footer__bottom_section h3{
+.footer__bottom_section h3 {
     color: #777;
     margin-bottom: 15px;
 }
@@ -596,8 +596,6 @@ input:focus {
         margin-top: 10px;
     }
 
-    .header-consultation__button {
-    }
 
     .aside__team-icons {
         display: grid;
@@ -624,13 +622,15 @@ input:focus {
 @media only screen and (max-width:768px) {
     .container {
         width: 90%;
-    } 
+    }
+
     .site-header {
         height: 84px;
         background: #F4F5F8;
     }
 
-    .site__header__information-number, .site__header__information-service {
+    .site__header__information-number,
+    .site__header__information-service {
         flex-direction: column !important;
         gap: 12px;
         margin-top: 10px;
@@ -659,12 +659,12 @@ input:focus {
     }
 
     .footer__container__text {
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width: 435px) {
     .site__header__information-service {
         display: none;
     }
@@ -673,8 +673,16 @@ input:focus {
         display: none;
     }
 
-    .header__consultation button {
+    .header-consultation__button {
         display: none;
+    }
+
+    .header-consultation__button-icon {
+        display: block;
+        width: 44px;
+        height: 44px;
+        border-radius: 8px;
+        cursor: pointer;
     }
 
     .section__title-img img {
@@ -690,7 +698,7 @@ input:focus {
         font-size: 20px;
     }
 
-    .article__text_box  {
+    .article__text_box {
         font-size: 14px;
         padding: 10px;
     }
@@ -707,10 +715,6 @@ input:focus {
 
     .articles__img_box-b_color h2 {
         margin-left: 10px;
-    }
-
-    .header-consultation__button-icon {
-        display: none;
     }
 
     .aside__team-icons {
@@ -760,6 +764,3 @@ input:focus {
         flex-direction: column;
     }
 }
-
-
-
