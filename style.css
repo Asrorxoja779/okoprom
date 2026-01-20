@@ -114,7 +114,7 @@ body {
 }
 
 .header__consultation {
-    text-align: center;
+    align-items: center;
     display: flex;
     gap: 10px;
     flex-direction: row;
@@ -126,8 +126,13 @@ body {
 .header__consultation img {
     width: 44px;
     height: 44px;
-    gap: 10px;
 }
+
+.header__okoprom-img__button {
+    align-items: center;
+}
+
+
 
 .header-consultation__button {
     border: none;
@@ -139,7 +144,7 @@ body {
     font-size: 16px;
 }
 
-.header-consultation__button-icon {
+.header-consultation__button-icon img {
     display: none;
 }
 
@@ -216,7 +221,9 @@ body {
     margin: 20px;
 }
 
-.section__title-img img {}
+.section__title-img img {
+
+}
 
 .section__narxi p {
     color: #ffffff;
@@ -452,7 +459,7 @@ input {
     background: transparent;
     border: none;
     border-bottom: 2px solid #fff;
-    outline: none;/ color: #fff;
+    outline: none; color: #fff;
     width: 100%;
 }
 
@@ -677,12 +684,23 @@ input:focus {
         display: none;
     }
 
-    .header-consultation__button-icon {
+    .header-consultation__button-icon img {
         display: block;
         width: 44px;
         height: 44px;
         border-radius: 8px;
         cursor: pointer;
+    }
+
+    .header-consultation__button-icon {
+        border: none;
+        border-radius: 6px;
+    }
+
+    .header__consultation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .section__title-img img {
